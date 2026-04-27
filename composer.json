@@ -1,0 +1,82 @@
+{
+    "name": "webisters/framework",
+    "description": "Webisters",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "Webisters",
+        "framework"
+    ],
+    "authors": [
+        {
+            "name": "Hafiz Muhammad Moaz",
+            "email": "hafizmoazkhalid@gmail.com",
+            "homepage": "https://github.com/HafizMMoaz"
+        }
+    ],
+    "homepage": "https://webisters.com/packages/framework",
+    "support": {
+        "email": "support@webisters.com",
+        "issues": "https://github.com/webisters/framework/issues",
+        "forum": "https://github.com/webisters/forum",
+        "source": "https://github.com/webisters/framework",
+        "docs": "https://webisters.com"
+    },
+    "funding": [
+        {
+            "type": "Webisters Sponsor",
+            "url": "https://webisters.com/sponsor"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "webisters/autoload": "^1.0",
+        "webisters/cache": "^1.0",
+        "webisters/cli": "^1.0",
+        "webisters/config": "^1.0",
+        "webisters/crypto": "^1.0",
+        "webisters/database": "^1.0",
+        "webisters/database-extra": "^1.0",
+        "webisters/date": "^1.0",
+        "webisters/debug": "^1.0",
+        "webisters/dev-commands": "^1.0",
+        "webisters/email": "^1.0",
+        "webisters/events": "^1.0",
+        "webisters/factories": "^1.0",
+        "webisters/helpers": "^1.0",
+        "webisters/http": "^1.0",
+        "webisters/http-client": "^1.0",
+        "webisters/image": "^1.0",
+        "webisters/language": "^1.0",
+        "webisters/log": "^1.0",
+        "webisters/mvc": "^1.0",
+        "webisters/pagination": "^1.0",
+        "webisters/routing": "^1.0",
+        "webisters/session": "^1.0",
+        "webisters/validation": "^1.0"
+    },
+    "require-dev": {
+        "webisters/coding-standard": "^1.0",
+        "phpunit/phpunit": "^10.5"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "classmap": [
+            "src/Webisters.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "config": {
+
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
+
+
