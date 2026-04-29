@@ -12,6 +12,12 @@ Webisters This library is designed for reuse in Composer-based PHP applications.
 composer require webisters/framework
 ```
 
+If Packagist only has the development branch published, use:
+
+```bash
+composer require webisters/framework:dev-main --prefer-stable
+```
+
 ## Requirements
 - PHP: `>=8.2`
 - Composer: Compatible with Composer 2.x.
