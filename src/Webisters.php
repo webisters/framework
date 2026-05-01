@@ -17,5 +17,5 @@ final class Webisters
     /**
      * The Webisters version.
      */
-    public const string VERSION = '1.0.0';
+        public const VERSION = '1.0.0';
 }
