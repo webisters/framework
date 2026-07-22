@@ -9,8 +9,8 @@
  */
 namespace Tests;
 
-use Webisters;
 use PHPUnit\Framework\TestCase;
+use Webisters;
 
 /**
  * Class WebistersTest.

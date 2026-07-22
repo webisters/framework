@@ -14,8 +14,8 @@
  */
 final class Webisters
 {
-    /**
-     * The Webisters version.
-     */
+        /**
+         * The Webisters version.
+         */
         public const VERSION = '1.0.0';
 }
