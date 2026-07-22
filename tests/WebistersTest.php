@@ -20,7 +20,7 @@ final class WebistersTest extends TestCase
     public function testVersion() : void
     {
         self::assertMatchesRegularExpression(
-            '#^[0-9]{2}\.\d\.\d$#',
+            '#^\d+\.\d+\.\d+$#',
             Webisters::VERSION
         );
     }
