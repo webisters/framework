@@ -31,7 +31,7 @@
     "require": {
         "php": ">=8.2",
         "webisters/autoload": "^1.0",
-        "webisters/cache": "^1.0",
+        "webisters/cache": "^2.0",
         "webisters/cli": "^2.0",
         "webisters/config": "^1.0",
         "webisters/crypto": "^1.0",
